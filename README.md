@@ -60,10 +60,27 @@ CodeBudget помогает:
 3. **Ценовой движок:** Применяет актуальные тарифы AWS Lambda ($0.0000166667 за ГБ-секунду) для расчета стоимости.
 
 ### 🛠 Установка и запуск
+1. **Клонируйте репозиторий:**
+   ```bash
+   git clone https://github.com/zomurb/CodeBudget.git
+   cd CodeBudget
+   ```
+2. **Установите зависимости:**
+   ```bash
+   npm install
+   ```
+3. **Соберите проект:**
+   ```bash
+   npm run build
+   ```
+4. **Запустите анализ:**
+   ```bash
+   npm start <путь-к-файлу.js>
+   ```
+
+Пример:
 ```bash
-npm install
-npm run build
-npm start <путь-к-файлу.js>
+npm start tests/sample.js
 ```
 
 ### 👶 Объяснение для 5-летнего
